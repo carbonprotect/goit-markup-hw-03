@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+     color:#212121 ;        }
+     
+:root {
+    --brand-color:  rgba(33, 150, 243, 1);
+    --lorem-descryption:rgba(117, 117, 117, 1);
+    --white-colors: rgba(245, 244, 250, 1);
+    --footer-background:  rgba(47, 48, 58, 1);
+
+}
+    
+
+    
+    
+footer{
+    background-color: var(--footer-background);
+font-family: Roboto; 
+font-weight: 400;
+line-height: 1.71;
+    }
+.main-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    background: var(--footer-background);
+color: rgba(255, 255, 255, 1);
+}
+.underline{text-decoration: none;}
+.colorlogo {
+    color: var(--brand-color);
+    font-weight: 700;
+    font-size:26px;
+    font-family: Raleway;
+    text-decoration: none;
+}
+
+.color-logo {color: rgba(0, 0, 0, 1);
+        font-weight: 700;
+        font-size: 26px; 
+        text-decoration: none ;
+    }
+    .color-logo-down{color:var(--white-colors)  ;font-weight: 700;
+        font-size: 26px; 
+        text-decoration: none;
+    }
+
+
+.button {
+    background-color: rgba(245, 244, 250, 1);
+    
+    font-family: Roboto;
+    cursor:pointer;
+font-size: 16px; 
+}
+.button:hover 
+{background-color:var(--brand-color);
+ color:white;}
+ 
+
+ .button:focus{background-color:var(--brand-color); color: white;}
+
+
+ .button-1{
+    color: rgba(33, 33, 33, 1);
+    
+    
+font-family :Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+cursor:pointer;
+ }
+ .button-1:hover {
+    color: var(--white-colors);
+    background-color:var(--brand-color);
+    
+}
+    .button-1:focus{background-color:var(--brand-color);
+        color:rgba(245, 244, 250, 1);
+        
+    }
+.portfolio h3 {
+color: rgba(33, 33, 33, 1);
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+   }
+.portfolio p{ 
+    color: var(--lorem-descryption);
+    font-weight: 400 ;
+    font-size: 16;
+    line-height: 1.87 ;
+
+}
+.mail-adress{font-weight:500 ; 
+    font-size: 14px;
+    line-height: 1.17 ;
+text-decoration: none;
+color: var(--lorem-descryption);
+}
+.mail-adress:hover {
+    color:var(--brand-color);
+}
+
+
+.blue {color:var(--brand-color); font-weight:500; font-size: 14px;
+    line-height: 
+    1.17;
+    text-decoration: none;
+}
+.navi{ font-weight:500; font-size: 14px;
+    line-height: 1.17;
+    color: rgba(33, 33, 33, 1); 
+    text-decoration: none;
+}
+
+.lorem{
+    font-size: 14px;
+    line-height: 1.71 ;color:  rgba(117, 117, 117, 1); 
+    ;}
+    .main-lorem{ color: rgba(33, 33, 33, 1);  
+        line-height: 1.16;
+    font-weight: 700;
+        font-size: 36px;
+        }
+     h3 {color: rgba(33, 33, 33, 1); 
+        font-size: 14px;
+        line-height: 1,17;
+        }
+.link{ 
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+color: var(--white-colors);
+
+text-decoration: none;}
+.link:hover{color:var(--brand-color);
+    text-decoration: none;
+}
+
+.link p{color: rgba(255, 255, 255, 0.6);
+    ; }
+
+.our-team{background-color:  rgba(245, 244, 250, 1);
+    }
+      
